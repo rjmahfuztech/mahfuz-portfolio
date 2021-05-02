@@ -1,0 +1,10 @@
+.footer-bg{
+    background-color:rgb(1, 23, 26);
+}
+.footer-bg ul li{
+    list-style-type: none;
+    color: rgb(11, 137, 160);
+}
+.footer-bg ul li .quick-link{
+    color: #a02bff94;
+}

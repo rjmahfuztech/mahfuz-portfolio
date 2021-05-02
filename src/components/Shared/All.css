@@ -1,0 +1,84 @@
+.margin{
+    margin: 160px 0 80px 0;
+}
+.my-image{
+    width: 80%;
+}
+
+.blog-card-style{
+    background-color: #263e5b !important;
+    cursor: pointer;
+}
+.blog-text{
+    color: rgb(234, 220, 255);
+    transition: 0.3s;
+}
+.blog-text:hover{
+    color: lime;
+}
+
+.blog-img{
+    width: 100%;
+    height: 200px;
+}
+.from-style{
+    width: 70%;
+    margin: 0 auto;
+}
+.social-link{
+    color: rgb(94, 223, 228);
+}
+.social-link:hover{
+    color: rgb(23, 231, 179);
+}
+.social-link .icon{
+    font-size: 30px;
+    margin: 10px 0 20px 15px;
+}
+.social-link .first-icon{
+    margin-left: 0;
+}
+.about-me{
+    padding-right: 50px;
+}
+
+@media (max-width: 768px){
+    .margin{
+        margin: 100px 0 30px 0;
+    }
+    .blog-card-style{
+        margin-top: 20px;
+    }
+    .blog-img{
+        height: 150px;
+    }
+    .my-image{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .from-style{
+        width: 80%;
+    }
+}
+@media (max-width: 575px){
+    .margin{
+        margin: 80px 0 40px 0;
+    }
+    .my-image{
+        width: 90%;
+    }
+    .from-style{
+        width: 90%;
+    }
+    .about-me{
+        padding-right: 0;
+    }
+}
+@media (max-width: 480px){
+    .my-image{
+        width: 100%;
+    }
+    .from-style{
+        width: 100%;
+    }
+}

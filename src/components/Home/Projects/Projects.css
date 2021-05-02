@@ -1,0 +1,11 @@
+.project-width{
+    max-width: 94%;
+    margin: 0 auto;
+}
+
+@media (max-width: 575px){
+    .project-width{
+        max-width: 100%;
+
+    }
+}
