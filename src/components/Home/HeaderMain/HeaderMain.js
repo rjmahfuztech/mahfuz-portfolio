@@ -28,7 +28,9 @@ const HeaderMain = () => {
                     <Link className="social-link" target="blank" to="//facebook.com/profile.php?id=100025242424389"><FontAwesomeIcon className='icon' icon={faFacebook} /></Link>
                     <Link className="social-link" target="blank" to="//twitter.com/MahfuzI87236451"><FontAwesomeIcon className='icon' icon={faTwitter} /></Link>
                 </div>
-                <button className="btn btn-success mb-4">GET RESUME</button>
+                <Link target="blank" to="//drive.google.com/u/0/uc?id=1Kru71UcHbn4e04HOB7fViYUq8wTsovrZ&export=download">
+                    <button className="btn btn-success mb-4">GET RESUME</button>
+                </Link>
             </div>
             <div className="col-md-6 text-center">
                 <img src={profile} className="img-fluid" alt="" />
