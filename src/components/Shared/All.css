@@ -41,6 +41,9 @@
 .about-me{
     padding-right: 50px;
 }
+.nav-style{
+    font-size: 18px;
+}
 
 @media (max-width: 768px){
     .margin{
