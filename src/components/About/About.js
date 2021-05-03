@@ -1,6 +1,3 @@
-// import { useSpring } from '@react-spring/core';
-// import { animated } from '@react-spring/web';
-// import React, { useRef } from 'react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import myProfile from '.././../images/my-pic.png';
@@ -10,14 +7,7 @@ import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 
 const About = () => {
-    // const n = useRef(0)
-    // const styles = useSpring({
-    //     from: { x: 0 },
-    //     config: { duration: 1000 },
-    //     loop: {
-    //         x: 100,
-    //     },
-    // })
+
     return (
         <div>
             <div className="container">
@@ -44,17 +34,6 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                     <h3 className="text-white text-center">MY SKILL</h3>
-                    {/* <div>
-                        <animated.div
-                            style={{
-                                width: 80,
-                                height: 80,
-                                backgroundColor: '#46e891',
-                                borderRadius: 16,
-                                ...styles,
-                            }}
-                        />
-                    </div> */}
                     <div className="row mt-5 text-white">
                         <div className="col-md-6">
                             <h5 className="mt-3">HTML</h5>
