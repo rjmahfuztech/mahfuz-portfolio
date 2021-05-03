@@ -6,7 +6,6 @@ const AllBlogInfo = (props) => {
     console.log(props);
     return (
         <div className="col-md-4 col-sm-6 col-12">
-            <Bounce right>
                 <div className="card blog-card-style text-center">
                     <img src={img} className="card-img-top blog-img" alt="Project pic" />
                     <div className="card-body">
@@ -14,7 +13,6 @@ const AllBlogInfo = (props) => {
                         <p className="card-text blog-text">{description}</p>
                     </div>
                 </div>
-            </Bounce>
         </div>
     );
 };

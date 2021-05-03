@@ -7,9 +7,11 @@ const Contact = () => {
     return (
         <div className="text-white mt-5">
             <div className="container">
-                <h2 className="text-center">
-                    <Zoom left cascade>Let's Contact With Me</Zoom>
-                </h2>
+                <div className="text-center">
+                    <Zoom left cascade>
+                        <h2 className="bottom-border mb-5">Let's Contact With Me</h2>
+                    </Zoom>
+                </div>
                 <Bounce top cascade>
                     <form className="from-style">
                         <div class="mb-3">

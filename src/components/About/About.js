@@ -7,6 +7,7 @@ import myProfile from '.././../images/my-pic.png';
 import Footer from '../Shared/Footer/Footer';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 const About = () => {
     // const n = useRef(0)
@@ -21,7 +22,9 @@ const About = () => {
         <div>
             <div className="container">
                 <div className="text-center mt-5">
-                <h3 className="bottom-border text-white">WHO AM I</h3>
+                    <Zoom cascade>
+                        <h3 className="bottom-border text-white">WHO AM I</h3>
+                    </Zoom>
                 </div>
                 <div className="row text-white mt-5 pt-5 align-items-center">
                     <div className="col-md-6">

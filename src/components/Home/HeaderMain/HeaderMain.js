@@ -14,7 +14,7 @@ const HeaderMain = () => {
             <div className="col-md-6 text-white">
                 <Zoom bottom cascade>
                     <h4>Hi There, I'm</h4>
-                    <h2 className="my-name">Mahfuz Islam</h2>
+                    <h2 className="my-name font-2">Mahfuz Islam</h2>
                     <h2 className="text-info">
                         <Typewriter
                             options={{
