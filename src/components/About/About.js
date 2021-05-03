@@ -5,6 +5,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import myProfile from '.././../images/my-pic.png';
 import Footer from '../Shared/Footer/Footer';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 const About = () => {
     // const n = useRef(0)
@@ -18,20 +20,27 @@ const About = () => {
     return (
         <div>
             <div className="container">
+                <div className="text-center mt-5">
+                <h3 className="bottom-border text-white">WHO AM I</h3>
+                </div>
                 <div className="row text-white mt-5 pt-5 align-items-center">
                     <div className="col-md-6">
-                        <img src={myProfile} className="my-image" alt="" />
+                        <Fade bottom cascade>
+                            <img src={myProfile} className="my-image" alt="" />
+                        </Fade>
                     </div>
                     <div className="col-md-6">
-                        <p>
-                            Hi there, this is Mahfuz. Always love to do programming and try to learn new thing about programming. I count myself among the hardworking person. My goal is to become a world-class web developer and to accept the challenge of developing a project.</p>
-                        <Link target="blank" to="//drive.google.com/u/0/uc?id=1Kru71UcHbn4e04HOB7fViYUq8wTsovrZ&export=download">
-                            <button className="btn btn-success">DOWNLOAD MY RESUME</button>
-                        </Link>
+                        <Slide bottom>
+                            <p>
+                                Hi there, this is Mahfuz. Always love to do programming and try to learn new thing about programming. I count myself among the hardworking person. My goal is to become a world-class web developer and to accept the challenge of developing a project.</p>
+                            <Link target="blank" to="//drive.google.com/u/0/uc?id=1Kru71UcHbn4e04HOB7fViYUq8wTsovrZ&export=download">
+                                <button className="btn btn-outline-success">DOWNLOAD MY RESUME</button>
+                            </Link>
+                        </Slide>
                     </div>
                 </div>
                 <div className="mt-5">
-                    <h2 className="text-white text-center">MY SKILL</h2>
+                    <h3 className="text-white text-center">MY SKILL</h3>
                     {/* <div>
                         <animated.div
                             style={{

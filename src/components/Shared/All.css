@@ -44,6 +44,10 @@
 .nav-style{
     font-size: 18px;
 }
+.bottom-border{
+    border-bottom: 3px solid red;
+    display: inline-block;
+}
 
 @media (max-width: 768px){
     .margin{
