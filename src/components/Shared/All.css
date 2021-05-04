@@ -48,7 +48,22 @@
     border-bottom: 3px solid red;
     display: inline-block;
 }
-
+.skill-style{
+    background-color: rgb(48, 96, 119);
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.skill-name{
+    display: inline-block;
+    border-bottom: 2px solid rgb(4, 179, 150);
+    color:rgb(77, 217, 241);
+}
+/* .half-colum{
+    border-right: 
+} */
 @media (max-width: 768px){
     .margin{
         margin: 100px 0 30px 0;
