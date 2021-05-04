@@ -49,7 +49,7 @@ const About = () => {
                     <h3 className="bottom-border">MY SKILLS</h3>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-md-5 half-colum">
+                    <div className="col-md-5">
                         <div className="text-white">
                             <h5 className="skill-name">Expertise:</h5>
                              <div className="row ml-2 mt-2 mb-2">

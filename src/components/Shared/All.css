@@ -61,9 +61,7 @@
     border-bottom: 2px solid rgb(4, 179, 150);
     color:rgb(77, 217, 241);
 }
-/* .half-colum{
-    border-right: 
-} */
+
 @media (max-width: 768px){
     .margin{
         margin: 100px 0 30px 0;
